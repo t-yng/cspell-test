@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/tomohiro/.anyenv/envs/nodenv/versions/14.15.4/bin/node /Users/tomohiro/.anyenv/envs/nodenv/versions/14.15.4/bin/yarn add cpell
+
+PATH: 
+  /Users/tomohiro/.anyenv/envs/nodenv/versions/14.15.4/bin:/Users/tomohiro/.anyenv/envs/nodenv/libexec:/Users/tomohiro/.anyenv/envs/nodenv/plugins/nodenv-vars/bin:/Users/tomohiro/.anyenv/envs/nodenv/plugins/node-build/bin:/Users/tomohiro/.anyenv/envs/pyenv/shims:/Users/tomohiro/.anyenv/envs/pyenv/bin:/Users/tomohiro/.anyenv/envs/nodenv/shims:/Users/tomohiro/.anyenv/envs/nodenv/bin:/Users/tomohiro/.zplug/bin:/Users/tomohiro/.cargo/bin:/Users/tomohiro/.local/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/Library/Apple/usr/bin:/Users/tomohiro/workspace/tools/flutter/bin
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.15.4
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/cpell: Not found
+      at Request.params.callback [as _callback] (/Users/tomohiro/.anyenv/envs/nodenv/versions/14.15.4/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/tomohiro/.anyenv/envs/nodenv/versions/14.15.4/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/tomohiro/.anyenv/envs/nodenv/versions/14.15.4/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/tomohiro/.anyenv/envs/nodenv/versions/14.15.4/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (internal/streams/readable.js:1327:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "misspell-fixer-test",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
