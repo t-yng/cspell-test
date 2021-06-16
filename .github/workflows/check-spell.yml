@@ -21,5 +21,8 @@ jobs:
             ${{ runner.os }}-yarn-
       - name: install dependencies
         run: yarn install
+      - name: enable problem matcher
+        run: |
+          echo "::add-matcher::.github/check-spell-problem-matcher.json"
       - name: check spell
         run: yarn cspell index.ts
