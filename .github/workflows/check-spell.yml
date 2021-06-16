@@ -22,4 +22,4 @@ jobs:
       - name: install dependencies
         run: yarn install
       - name: check spell
-        run: yarn cspell index.js
+        run: yarn cspell index.ts
