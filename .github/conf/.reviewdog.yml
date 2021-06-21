@@ -1,6 +1,6 @@
 runner:
   cspell:
-    cmd: yarn cspell ./
+    cmd: yarn cspell index.ts
     errorformat:
       - "%f:%l:%c\ -\ %m"
     level: error
