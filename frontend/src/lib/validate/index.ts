@@ -1,8 +1,10 @@
 const setsupport = (support) => console.log("hoge");
 
-const helllo = (name) => {
-    const unmount = true;
+const helo = (name) => {
+    const unmunt = true;
     console.log(name);
 };
 
-helllo("test");
+const unSubscription = "";
+
+helo("test");
