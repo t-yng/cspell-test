@@ -1,7 +1,7 @@
 const support = (support) => console.log("hoge");
 
 const helo = (name) => {
-    const unmount = true;
+    const unmunt = true;
     console.log(name);
 };
 
