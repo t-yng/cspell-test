@@ -1,8 +1,8 @@
 const support = (support) => console.log("hoge");
 
-const helllo = (name) => {
+const helo = (name) => {
     const unmount = true;
     console.log(name);
 };
 
-helllo("test");
+helo("test");
