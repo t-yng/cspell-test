@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "spell-check": "cspell \"src/**/*\" --show-suggestions"
+  },
   "devDependencies": {
     "cspell": "^5.6.4"
   }

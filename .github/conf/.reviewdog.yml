@@ -1,6 +1,6 @@
 runner:
   cspell:
-    cmd: yarn cspell index.ts
+    cmd: yarn spell-check
     errorformat:
       - "%f:%l:%c\ -\ %m"
     level: warning
