@@ -1,0 +1,6 @@
+runner:
+  cspell:
+    cmd: yarn spell-check
+    errorformat:
+      - "%f:%l:%c\ -\ %m"
+    level: warning
