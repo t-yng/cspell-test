@@ -1,4 +1,4 @@
-const setsupport = (support) => console.log("hoge");
+const support = (support) => console.log("hoge");
 
 const helllo = (name) => {
     const unmount = true;
